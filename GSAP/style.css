@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/* #box{
+     height: 200px;
+     width: 200px ;
+     background-color: crimson;
+}
+#box2{
+     height: 200px;
+     width: 200px ;
+     background-color: rgb(235, 152, 169);
+}
+#box3{
+     height: 200px;
+     width: 200px ;
+     background-color: rgb(234, 131, 46);
+} */
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px ;
+    padding: 60px ;
+    font-size: 18px ;
+}
+.Links{
+    display: flex;
+    gap: 2rem ;
+}

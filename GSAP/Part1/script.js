@@ -26,6 +26,7 @@
 
 
 var tl = gsap.timeline()
+var t2 = gsap.timeline()
 
 // tl.to("#box",{
 //     x:1000,
@@ -48,7 +49,7 @@ tl.from(".Logo" , {
      duration:1.3,
      
 })
-tl.from(".Links p" , {
+t2.from(".Links p" , {
      opacity:0,
      y:-30,
      duration:1.3,

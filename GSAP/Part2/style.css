@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+#One{
+    background-color: red ;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Two{
+    background-color: Green ;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Three{
+    background-color: yellow ;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Four{
+    background-color: orange  ;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Box{
+     height: 300px ;
+     width: 300px ;
+     background-color: blue;
+}

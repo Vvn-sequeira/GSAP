@@ -6,11 +6,14 @@ gsap.from("#One .Box" , {
 })
 gsap.from("#Two .Box" , {
     scale:0,
-    delay:2, 
+    delay:1, 
     duration:2,
     scrollTrigger:{
         trigger: "#Two .Box",
         scroller:"body",
-        markers: true 
+        markers:true ,
+        start:"top 60%",
+        end:"top 30%",
+        scrub:2 
     }
 })
